@@ -1,0 +1,99 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#313743">
+        <RelativeLayout
+            android:layout_margin="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/ivFriendPhoto" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Имечко Фамилия"
+                android:id="@+id/tvFriendNameSurname"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ivFriendPhoto"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Онлайн "
+                android:id="@+id/tvFriendState"
+                android:layout_below="@+id/tvFriendNameSurname"
+                android:layout_alignLeft="@+id/tvFriendNameSurname"
+                android:layout_alignStart="@+id/tvFriendNameSurname"
+                android:textColor="#cbd6da"/>
+        </RelativeLayout>
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ll_bg">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ibOnlineFunc"
+        android:layout_weight="1"
+        android:src="@drawable/ic_main_func_log"
+        android:background="@drawable/btn_main_func_selector"
+        android:onClick="onOnlineFuncClick"/>
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibLikeFunc"
+            android:layout_weight="1"
+            android:src="@drawable/ic_main_func_like"
+            android:background="@drawable/btn_main_func_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibFeedFunc"
+            android:layout_weight="1"
+            android:src="@drawable/ic_main_func_upd"
+            android:background="@drawable/btn_main_func_selector"/>
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibStatisticFunc"
+            android:layout_weight="1"
+            android:src="@drawable/ic_main_func_mes"
+            android:scaleType="center"
+            android:background="@drawable/btn_main_func_selector"
+            />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

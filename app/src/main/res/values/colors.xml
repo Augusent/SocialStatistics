@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dOnline">#4080BA</color>
+    <color name="mOnline">#91B2D2</color>
+    <color name="Offline">#DBE4F4</color>
+</resources>

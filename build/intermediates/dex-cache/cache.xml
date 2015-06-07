@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-789e21b2d80786a709c0a27457a1b61e5e2a21cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-8a1a5ad073a4364f75e73340822640ddd2c393bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-fffd71d65278e9b1b0d20e78620b7d074ab7c862.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-c36bc770ae7be090b96d297a39ac9cafdc024e12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.0-046954cae5023c602d1e5cac45aade22a5e7c736.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-00a64669ec51bfa4df56bcecea025909f302f456.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-07ece79a1a16cc904bb8350054110771d89d84d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-api-client-1.19.0-81e085a7a382466aa1c9244f07d9e1e1ccb63ded.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-d9ca6ee7016c2cb0fd6fdc3a8376417064e5abbb.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\exploded-aar\VKspy\vksdk_library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ac1ff7bde37c9d42bf4c4ca1e1c0bdcaa680944b">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\classes-9fc058fe4c2ad22ae51b42256db9fcc4158c3a8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.koushikdutta.ion\ion\1.2.4\776baf5cac8eb4145dc0901254122cf956a784e3\ion-1.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="776baf5cac8eb4145dc0901254122cf956a784e3">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\ion-1.2.4-4c9bbcec1496ef6bf84eb7517d8b2ce29fee6f74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\gson-2.2.4-974762303b0446fc028b45ea34c4fd8819d6192b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\.gradle\caches\modules-2\files-2.1\com.koushikdutta.async\androidasync\1.2.4\8dc7111050ee5f13a54b1206d47fee856159b2aa\androidasync-1.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8dc7111050ee5f13a54b1206d47fee856159b2aa">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\androidasync-1.2.4-cb59840468fa19ab5c13763298dc0012bbc218e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ruslan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-02364328ee79ffa0ac9f4e9f778c9af550c55731.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\backend\build\libs\backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a0e462365febbf63fb4a75a3254e0f35b2f9c896">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\backend-android-endpoints-cf68e2a066ee0729cb1b29037518353a27c235bb.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b">
+        <dex dex="D:\AndroidStudioProjects\VKspy0.2.0\VKspy\app\build\intermediates\pre-dexed\debug\classes-80fe4ef9b5338c596735f23233177d830b99f6f0.jar" />
+    </item>
+
+</items>

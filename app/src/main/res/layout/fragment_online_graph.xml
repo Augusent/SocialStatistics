@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vk_grey_color"
+    tools:context="com.serovr.vkspy.app.OnlineGraphFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnLoadPieChart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get chart!"
+                android:onClick="onHBarRefreshClick"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_post">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сегодня:"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="false"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/pbWaitingLogForChart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:indeterminateDrawable="@drawable/circular_progress_bar"/>
+
+                
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/ivOnlinePieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="center"
+                    android:visibility="gone">
+                    </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_post"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="За все время"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="false"
+                    android:textSize="18sp" />
+
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/ivOnlinePieChart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="center">
+                    </ImageView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.serovr.vkspy.app.UserInfoFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#313743">
+            <RelativeLayout
+                android:layout_margin="12dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_launcher"
+                    android:id="@+id/ivUserPhoto" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Имечко Фамилия"
+                    android:id="@+id/tvUserNameSurname"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/ivUserPhoto"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Онлайн "
+                    android:id="@+id/tvUserState"
+                    android:layout_below="@+id/tvUserNameSurname"
+                    android:layout_alignLeft="@+id/tvUserNameSurname"
+                    android:layout_alignStart="@+id/tvUserNameSurname"
+                    android:textColor="#cbd6da"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="6dp"
+
+                    android:layout_toRightOf="@+id/tvUserNameSurname"
+                    android:src="@drawable/ib_user_logout"
+                    android:onClick="onUserLogoutButtonClick"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollView" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
